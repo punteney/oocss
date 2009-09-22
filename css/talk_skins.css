@@ -13,6 +13,22 @@
 /* yoyo (extends bubbleBottom) */
 .yoyo .inner{background-color:#52a583;}
 .yoyo b b{border-top-color:#52a583;}
+/* angleYowza (extends angleTop) */
+.angleYowza .inner{background-color:#d4494f;}
+.angleYowza b b{border-bottom-color:#d4494f;border-left-color:#d4494f;}
+/* angleLol (extends angleLeft) */
+.angleLol .inner{background-color:#845B4E;}
+.angleLol b b{border-top-color:#845B4E;border-right-color:#845B4E;}
+/* angleMeep (extends angleRight) */
+.angleMeep .inner{background-color:#6cc6c6;}
+.angleMeep b b{border-top-color:#6cc6c6;border-left-color:#6cc6c6;}
+/* angleYo (extends angleBottom) */
+.angleYoyo .inner{background-color:#52a583;}
+.angleYoyo b b{border-top-color:#52a583;border-left-color:#52a583;}
+/* angleDiscuss (extends angleBottom) */
+.angleDiscuss .inner{background-color:#CCC;}
+.angleDiscuss b b{border-top-color:#CCC;border-left-color:#CCC;}
 /* header */
 .fire, .fire *{color: #000; font-size:18px; border-bottom: 1px dashed #fff;}
 .attribution{margin-left:27px;}
+.angleAttribution{margin-left: 18px;}

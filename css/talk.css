@@ -18,3 +18,18 @@
 /* extensions (swaps alignment of talk bubble) */
 .bubbleHorizontalExt b b{top:auto; bottom:10px;visibility:visible;} /* apply to bubbleLeft or bubbleRight */
 .bubbleVerticalExt b b{right:10px;left:auto;} /* apply to bubbleTop or bubbleBottom */
+/* top angle (extends bubbleTop) */
+.angleTop .inner{margin-top:14px;}
+.angleTop b b{border-top-style:solid;}
+/* left angle (extends bubbleLeft) */
+.angleLeft .inner{margin-left:14px;}
+.angleLeft b b{border-left-style:solid;}
+/* right angle (extends bubbleRight) */
+.angleRight .inner{margin-right:14px;}
+.angleRight b b{border-right-style:solid;}
+/* bottom angle (extends bubbleBottom) */
+.angleBottom .inner{margin-bottom:14px;}
+.angleBottom b b{border-bottom-style:solid;}
+/* extensions (swaps alignment of talk bubble) */
+.angleHorizontalExt b b{top:auto; bottom:10px;visibility:visible;} /* apply to bubbleLeft or bubbleRight */
+.angleVerticalExt b b{right:10px;left:auto;} /* apply to bubbleTop or bubbleBottom */
